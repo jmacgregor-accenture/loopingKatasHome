@@ -2,7 +2,7 @@ language: csharp
 mono: none
 dist: xenial
 dotnet: 2.2
-solution: ./loopingKatasHome/dotnetcore/LoopingKatas.sln
+#solution: ./loopingKatasHome/dotnetcore/LoopingKatas.sln
 script:
   - dotnet restore
   - dotnet build
