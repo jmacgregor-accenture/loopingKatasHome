@@ -25,6 +25,10 @@ matrix:
         directories:
           - $HOME/.gradle/caches/
           - $HOME/.gradle/wrapper/
+      branches: 
+        only:
+        - master
+        - development
 
 
 # tell Travis what language your code is in
