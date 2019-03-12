@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 public class LibraryTest {
     @Test public void testSomeLibraryMethod() {
         Library classUnderTest = new Library();
-        boolean expected = false;
-        assertEquals(String.valueOf(expected), false, classUnderTest.someLibraryMethod());
+        boolean expected = true;
+        assertTrue(String.valueOf(expected), classUnderTest.someLibraryMethod());
     }
 }
