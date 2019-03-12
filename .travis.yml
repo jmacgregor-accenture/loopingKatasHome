@@ -5,6 +5,6 @@ dist: xenial
 dotnet: 2.2
 #solution: ./loopingKatasHome/dotnetcore/LoopingKatas.sln
 script:
-  - cd ./loopingKatasHome/dotnetcore/
+  - cd /home/travis/build/jmacgregor-accenture/loopingKatasHome/dotnetcore/
   - dotnet restore
   - dotnet build
