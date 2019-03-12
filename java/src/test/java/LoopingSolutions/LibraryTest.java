@@ -3,12 +3,14 @@
  */
 package LoopingSolutions;
 
+import org.junit.Assert;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class LibraryTest {
     @Test public void testSomeLibraryMethod() {
         Library classUnderTest = new Library();
-        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
+        boolean expected = false;
+        assertEquals(String.valueOf(expected), false, classUnderTest.someLibraryMethod());
     }
 }
