@@ -2,7 +2,6 @@ language: csharp
 mono: none
 #dotnet: 2.2.103
 solution: ./loopingKatasHome/dotnetcore/LoopingKatas.sln
-install: 
-  - nuget restore ./loopingKatasHome/dotnetcore/LoopingKatas.sln
 script:
+  - dotnet restore
   - dotnet build
