@@ -8,3 +8,7 @@ script:
   - cd /home/travis/build/jmacgregor-accenture/loopingKatasHome/dotnetcore/
   - dotnet restore
   - dotnet build
+branches: 
+  only:
+  - master
+  - development
